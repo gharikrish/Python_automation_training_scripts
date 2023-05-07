@@ -1,0 +1,5 @@
+Hostname,IP Address,Interfaces,VLANs
+router1,172.16.24.54,"Interface                  IP-Address      OK? Method Status                Protocol
+FastEthernet0/0            172.16.24.54    YES DHCP   up                    up      ","                  ^
+% Invalid input detected at '^' marker.
+"
