@@ -1,0 +1,27 @@
+Minimum process stacks:
+ Free/Size   Name
+ 5400/6000   Inspect Init Msg
+58916/60000  EEM Auto Registration Proc
+ 5396/6000   SASL MAIN
+ 2400/3000   allegro libretto init
+ 4212/6000   Update prst
+10936/12000  Router Init
+59164/60000  script background loader
+ 4248/6000   DIB error message
+ 3348/12000  Init
+ 5192/6000   RADIUS INITCONFIG
+ 3096/6000   RAC I/F Conf.
+ 2156/3000   Rom Random Update Process
+ 7000/12000  SSH Process
+11316/12000  IPRM
+ 5320/6000   URPF stats
+ 8020/12000  Exec
+
+Interrupt level stacks:
+Level    Called Unused/Size  Name
+  1       15403   7792/9000  Network interfaces
+  2           0   9000/9000  DMA/Timer Interrupt
+  3           0   9000/9000  PA Management Int Handler
+  4      272597   8592/9000  Console Uart
+  5           0   9000/9000  OIR/Error Interrupt
+  7     2008147   8568/9000  NMI Interrupt Handler

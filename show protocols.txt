@@ -1,0 +1,4 @@
+Global values:
+  Internet Protocol routing is enabled
+FastEthernet0/0 is up, line protocol is up
+  Internet address is 172.16.24.127/24

@@ -1,0 +1,20 @@
+  terminal length 0
+  show ip int br
+  show version
+  show controllers
+  show stacks
+  show interfaces
+  show buffers
+  show process memory
+  show process cpu
+  show clock
+  show ip int br
+  show ip route
+  show cdp neighbors
+  show protocols
+  show users
+  show processes
+  show ip dhcp binding
+  show logging
+  show tech-support
+  show history

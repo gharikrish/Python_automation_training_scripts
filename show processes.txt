@@ -1,0 +1,269 @@
+CPU utilization for five seconds: 4%/0%; one minute: 1%; five minutes: 1%
+ PID QTy       PC Runtime (ms)    Invoked   uSecs    Stacks TTY Process
+   1 Cwe 6003D1EC            4         66      60 4984/6000   0 Chunk Manager   
+   2 Csp 606E6944            0       1606       0 2548/3000   0 Load Meter      
+   3 Mwe 634EAD94            0          1       0 5596/6000   0 chkpt message ha
+   4 Mwe 63111098            0          1       023372/24000  0 EDDRI_MAIN      
+   5 Lst 60038D34         7012        943    7435 5288/6000   0 Check heaps     
+   6 Cwe 60043F48            0          1       0 5580/6000   0 Pool Manager    
+   7 Mst 615FD6DC            4          2    2000 5520/6000   0 Timers          
+   8 Mwe 600787C8            0          2       0 8508/9000   0 ATM AutoVC Perio
+   9 Mwe 600781A0            0          2       0 5504/6000   0 ATM VC Auto Crea
+  10 Mwe 600CEF20            0        134       0 5696/6000   0 IPC Dynamic Cach
+  11 Mwe 600BEFB4            0          1       0 5624/6000   0 IPC Zone Manager
+  12 Mwe 600BE978            4       7837       0 5596/6000   0 IPC Periodic Tim
+  13 Mwe 600BE7C4           28       7837       3 5592/6000   0 IPC Deferred Por
+  14 Mwe 600BEC90            0          1       0 5568/6000   0 IPC Seat Manager
+  15 Mwe 600C4E80            0          1       0 5620/6000   0 IPC BackPressure
+  16 Msi 601FA9EC           80       8022       9 4372/6000   0 EnvMon          
+  17 Mwe 6020B534            0          1       0 8600/9000   0 OIR Handler     
+  18 Mwe 602946EC            0          1       023524/24000  0 Crash writer    
+  19 Mwe 60ECD8E8          100        254     393 4296/6000   0 ARP Input       
+  20 Mwe 60ECA0AC          108       8377      12 5532/6000   0 ARP Background  
+  21 Mwe 60F99B1C            0          2       0 5508/6000   0 ATM Idle Timer  
+  22 Lwe 614CAFD4            0          1       0 5616/6000   0 CEF MIB API     
+  23 Mwe 615A6B94            0          2       0 5512/6000   0 AAA high-capacit
+  24 Lwe 615AB244            0          1       0 5776/6000   0 AAA_SERVER_DEADT
+  25 Mwe 6162B8CC            0          1       011572/12000  0 Policy Manager  
+  26 Mwe 61720CA8            0          2       0 5492/6000   0 DDR Timers      
+  27 Lwe 618995D4            4          6     666 5400/6000   0 Entity MIB API  
+  28 Mwe 62E01DD0            0          2       0 5508/6000   0 Serial Backgroun
+  29 Mwe 63099EB8            0          1       0 5768/6000   0 RO Notify Timers
+  30 Mwe 630A26A8            0          1       0 2572/3000   0 RMI RM Notify Wa
+  31 Mwe 634C0B28           12         26     461 8444/9000   0 EEM ED Syslog   
+  32 Mwe 602064E4            0          2       0 5532/6000   0 SMART           
+  33 Msp 616685C0            8       8024       0 5556/6000   0 GraphIt         
+  34 Mwe 61747D68            0          2       011528/12000  0 Dialer event    
+  35 Mwe 62E087A4            0          1       0 5620/6000   0 SERIAL A'detect 
+  36 Mwe 634163D0            0          2       011540/12000  0 XML Proxy Client
+  37 Cwe 6308D918            0          1       0 5616/6000   0 Critical Bkgnd  
+  38 Mwe 602B7974          256       2815      9010260/12000  0 Net Background  
+  39 Mwe 602B7BDC            4          2    200011440/12000  0 IDB Work        
+  40 Lwe 615E8E70            4         24     16610556/12000  0 Logger          
+  41 Mwe 61619928          164       8018      20 4792/6000   0 TTY Background  
+  42 Msp 602C2EA8          260       8028      32 8496/9000   0 Per-Second Jobs 
+  43 Mwe 62E7F054            0          3       0 5356/6000   0 IF-MGR control p
+  44 Mwe 62E89090            0          3       0 5616/6000   0 IF-MGR event pro
+  45 Mwe 600F7420            0          1       0 2608/3000   0 Inode Table Dest
+  46 Mwe 63A27E44            0          1       0 5588/6000   0 IKE HA Mgr      
+  47 Mwe 63A2BD68            0          1       0 5592/6000   0 IPSEC HA Mgr    
+  48 Mwe 637EE558            4          4    1000 4592/6000   0 rf task         
+  49 Hwe 602C29BC           24       1436      16 5600/6000   0 Net Input       
+  50 Msp 602B5528         1916       1607    1192 5548/6000   0 Compute load avg
+  51 Msp 602C2F08          516        134    3850 5576/6000   0 Per-minute Jobs 
+  52 Mst 62094760            0          2       0 5520/6000   0 Transport Port A
+  53 Mwe 62E94B64           40       2409      16 5680/6000   0 HC Counter Timer
+  54 Lwe 60088074            4          1    4000 5508/6000   0 Coproc Event Pro
+  55 Hwe 6024E070            0          1       0 5616/6000   0 POS APS Event Pr
+  56 Hst 60120964            0          1       0 5756/6000   0 SONET alarm time
+  57 Hwe 605A7E18            0          1       0 5772/6000   0 CSP Timer       
+  58 Mwe 607F4B40            0          1       0 5780/6000   0 FPD Management P
+  59 Mwe 607F4E04            0          1       0 5576/6000   0 FPD Action Proce
+  60 Hwe 60C2356C            4          2    2000 5520/6000   0 VNM DSPRM MAIN  
+  61 Mwe 60D23554            0          2       0 5460/6000   0 VMI Background  
+  62 Mwe 637F6A10            0          1       0 5772/6000   0 RF_INTERDEV_DELA
+  63 Mwe 637F9738            0          1       023608/24000  0 RF_INTERDEV_SCTP
+  64 Msp 63CF5184           16       8024       1 8760/9000   0 ISA Common Helpe
+  65 Mwe 602106C0            4          2    2000 5568/6000   0 Flash MIB Update
+  66 Mwe 602105E0            0          1       0 5612/6000   0 Flash Card Oir  
+  67 Mwe 616A62D4            0          1       0 5588/6000   0 CES Line Conditi
+  68 Mwe 634F34FC            0          1       023604/24000  0 CF_INTERDEV_SCTP
+  69 Mwe 634EBA64            0          2       0 5588/6000   0 cpf_process_msg_
+  70 Hwe 6008A414            0          2       011540/12000  0 Ethernet CFM    
+  71 Mwe 6008A4C4            8       7835       111536/12000  0 Ethernet Timer C
+  72 Hwe 6036161C            0          1       0 5588/6000   0 delayed evt hand
+  73 Mwe 60E7FFEC           24         52     461 5420/6000   0 AAA Server      
+  74 Mwe 60E8356C            0          1       0 5756/6000   0 AAA ACCT Proc   
+  75 Mwe 60E83708            0          1       0 5528/6000   0 ACCT Periodic Pr
+  76 Mwe 60E94FF8            0          2       0 5524/6000   0 AAA Dictionary R
+  77 Mwe 614B8CDC            4        807       4 5188/6000   0 CDP Protocol    
+  78 Mwe 618DF86C            0          2       0 8540/9000   0 Ethernet OAM Pro
+  79 Lwe 61975EA4            0          2       011516/12000  0 CEF switching ba
+  80 Mwe 61975EA4            0          3       010028/12000  0 ADJ resolve proc
+  81 Mwe 61D6F480           12          3    4000 3076/6000   0 IP ARP Adjacency
+  82 Mwe 61D703F8            0          1       0 5528/6000   0 IP ARP Retry Age
+  83 Mrd 61D48040         3116       8090     385 9236/12000  0 IP Input        
+  84 Mwe 61D79434            0          1       0 5748/6000   0 ICMP event handl
+  85 Mwe 62068080            0          5       0 5516/6000   0 TurboACL        
+  86 Hwe 620681DC            0          2       0 5544/6000   0 TurboACL chunk  
+  87 Mwe 621BBDC4            0          1       0 5760/6000   0 IPv6 Echo event 
+  88 Mwe 624F67E0            4         15     266 5468/6000   0 MOP Protocols   
+  89 Cwe 626A1388            0          1       0 5776/6000   0 LSP Tunnel FRR  
+  90 Mwe 626A6D64            0          1       0 8728/9000   0 MPLS Auto-Tunnel
+  91 Mwe 630C16BC            0          3       011560/12000  0 PPP Hooks       
+  92 ME  627A328C           36        856      42 8124/9000   0 OSPF-100 Hello  
+  93 Mwe 62EF1314            0          1       011784/12000  0 SSS Manager     
+  94 Mwe 62EFEE8C            0          1       0 5604/6000   0 SSS Feature Mana
+  95 Mwe 62EFEF20            0          1       0 5712/6000   0 SSS Feature Time
+  96 Mwe 62F5AE84            0          2       011544/12000  0 Spanning Tree   
+  97 Lwe 632D49F0            0          1       0 5284/6000   0 X.25 Encaps Mana
+  98 Mwe 6332C720            0          6       011492/12000  0 SSM connection m
+  99 Mwe 63353534            0          1       0 5616/6000   0 AC Switch       
+ 100 Mwe 634D6464            0         27       0 5716/6000   0 Authentication P
+ 101 Mwe 634E384C            0          1       0 5756/6000   0 Auth-proxy AAA B
+ 102 Hwe 634FD760            0          2       0 8552/9000   0 EAPoUDP Process 
+ 103 Mwe 63506C9C            0          2       0 8508/9000   0 IP Host Track Pr
+ 104 Mwe 63772FD8            0          2       011540/12000  0 KRB5 AAA        
+ 105 Mwe 61FC94C0            4        141      28 7944/9000   0 IP Background   
+ 106 Mwe 61FCFDFC          144        136    1058 6876/9000   0 IP RIB Update   
+ 107 Lwe 61975EA4           16        254      6211520/12000  0 CEF background p
+ 108 Lwe 619EECFC          968      12347      7810068/12000  0 CEF: IPv4 proces
+ 109 Lwe 619D1E8C            0          1       0 5588/6000   0 ADJ background  
+ 110 Mwe 630C16BC            0          2       011560/12000  0 PPP IP Route    
+ 111 Mwe 630C16BC            0          2       011556/12000  0 PPP IPCP        
+ 112 Mwe 61D9A0B8            0          1       0 5712/6000   0 IP Traceroute   
+ 113 Mwe 6207E220          672       2535     26510052/12000  0 TCP Timer       
+ 114 Lwe 620837F4           56         50    112010624/12000  0 TCP Protocols   
+ 115 Hwe 62049400            0          1       0 5772/6000   0 Socket Timers   
+ 116 Mwe 61CA82CC            0         27       0 8464/9000   0 HTTP CORE       
+ 117 Hwe 60629DC8            0          2       0 5540/6000   0 RLM groups Proce
+ 118 Mwe 60839BB4            0          1       011596/12000  0 L2X Data Daemon 
+ 119 Mwe 6085D81C            0          2       023376/24000  0 Border Element p
+ 120 Mwe 60874E14            4          3    133323324/24000  0 gk process      
+ 121 Mwe 60CC2E74            0          1       0 5600/6000   0 ac_atm_state_eve
+ 122 Mwe 60D1C508            0          2       0 5536/6000   0 PPPoE Flow Contr
+ 123 Mwe 62E67BCC            0          1       0 5744/6000   0 SNMP Timers     
+ 124 Mwe 62D0E158          100       8021      12 5552/6000   0 RUDPV1 Main Proc
+ 125 Mwe 61094FC8            0          1       0 5752/6000   0 bsm_timers      
+ 126 Msi 61092114           40       8021       4 5736/6000   0 bsm_xmt_proc    
+ 127 Mwe 615766D4            0          1       059492/60000  0 COPS            
+ 128 Mwe 61742550            0          2       0 5520/6000   0 Dialer Forwarder
+ 129 Mwe 61AEBFC8            0          3       0 5516/6000   0 Flow Exporter Ti
+ 130 Hwe 60F6F604            0          2       011528/12000  0 ATM OAM Input   
+ 131 Hwe 60F707C8            0          2       010752/12000  0 ATM OAM TIMER   
+ 132 Mwe 61FC92E4            0          1       0 5620/6000   0 RARP Input      
+ 133 Mwe 6225BEC8            0          1       0 5780/6000   0 IPv6 Inspect Tim
+ 134 Mwe 62436258            0          1       0 5800/6000   0 LAPB Process    
+ 135 Mwe 62719B90            0          2       0 5456/6000   0 LFDp Input Proc 
+ 136 Hwe 6281702C            0          1       0 5556/6000   0 PAD InCall      
+ 137 Mwe 632D6888            0          2       011516/12000  0 X.25 Background 
+ 138 Mwe 630C16BC            0          2       0 5560/6000   0 PPP Bind        
+ 139 Mwe 62864A04            0          2       0 5508/6000   0 PPP SSS         
+ 140 Hwe 62A83B30            0          1       0 5636/6000   0 MQC Flow Event B
+ 141 Mwe 62B28D8C         8856    1995376       4 5684/6000   0 HQF Shaper Backg
+ 142 Mwe 62B8DF9C          424      80127       5 5516/6000   0 RBSCP Background
+ 143 Mwe 62D96080            4          3    1333 5416/6000   0 SCTP Main Proces
+ 144 Mwe 6323D710            0          1       011716/12000  0 VPDN call manage
+ 145 Mwe 634EC560            0          1       0 5580/6000   0 CHKPT EXAMPLE   
+ 146 Mwe 634EED6C            0          1       0 5584/6000   0 CHKPT DevTest   
+ 147 Mwe 63512E8C            0          1       011584/12000  0 IPS Process     
+ 148 Mwe 63564A38            0          2       011520/12000  0 IPS Auto Update 
+ 149 Mwe 635734CC            0          2       0 5296/6000   0 SDEE Management 
+ 150 Mwe 635FC37C           96      15664       6 5536/6000   0 Inspect process 
+ 151 Mwe 634EB1FC            0          1       0 5608/6000   0 cpf_process_tpQ 
+ 152 Mwe 63697E4C            8        640      12 5540/6000   0 FW DP Inspect pr
+ 153 Mwe 6373C248          132      15664       8 5532/6000   0 CCE DP URLF cach
+ 154 Mwe 637FF77C            0          2       0 5500/6000   0 URL filter proc 
+ 155 Lwe 63CB756C            0          1       0 5616/6000   0 XSM_EVENT_ENGINE
+ 156 Lsi 63CB4E1C            8        803       911584/12000  0 XSM_ENQUEUER    
+ 157 Lsi 63CB7F28           40        803      4911760/12000  0 XSM Historian   
+ 158 Hwe 63CA0960            0          1       0 5784/6000   0 Select Timers   
+ 159 Mwe 63C5D920            8          2    4000 5252/6000   0 HTTP Process    
+ 160 Mwe 63C90568            0          2       0 5432/6000   0 CIFS API Process
+ 161 Mwe 63C90184            0          2       0 5508/6000   0 CIFS Proxy Proce
+ 162 Mwe 63CCC864            0          1       0 4916/6000   0 Crypto HW Proc  
+ 163 Mwe 606921DC            0        322       0 5312/6000   0 CRM_CALL_UPDATE_
+ 164 Mwe 60CE9690            0          2       0 5508/6000   0 Diameter Base pr
+ 165 Mwe 60CF04B8            0          1       0 5508/6000   0 Diameter Transpo
+ 166 M*         0          704        448    1571 8984/12000  2 SSH Process     
+ 167 Mwe 614B04DC            0          2       0 5540/6000   0 AAA Cached Serve
+ 168 Mwe 6187D7D0            0          2       0 5544/6000   0 ENABLE AAA      
+ 169 Mwe 618E3118            0          1       0 5604/6000   0 EM Background Pr
+ 170 Mwe 6241DA98            0          1       0 5776/6000   0 Key chain liveke
+ 171 Mwe 62447C8C            8          2    4000 5540/6000   0 LINE AAA        
+ 172 Mwe 6245A0B4           28         52     538 5360/6000   0 LOCAL AAA       
+ 173 Mwe 6263DCF4            0          3       0 5660/6000   0 MPLS Auto Mesh P
+ 174 Mwe 6301EFEC            0          2       0 5384/6000   0 TPLUS           
+ 175 Mwe 6327EBAC            0          2       0 5544/6000   0 VSP_MGR         
+ 176 Mwe 6367CFE4            0          1       022452/24000  0 FW_TEST_TRP     
+ 177 Mwe 6374CDDC            0          1       0 5788/6000   0 EPM MAIN PROCESS
+ 178 Mwe 63968EC0            0          3       0 7148/8000   0 Crypto WUI      
+ 179 Mwe 63B8C874            0          2       0 5516/6000   0 Crypto Support  
+ 180 Mwe 63BE10E4            0          1       0 5604/6000   0 IPSECv6 PS Proc 
+ 181 Mwe 609102E4            4          2    2000 2224/6000   0 Proxy Session Ap
+ 182 Hwe 6091B7EC            0          1       011396/12000  0 CCVPM_HTSP      
+ 183 Mwe 6093D2BC            0          1       0 5540/6000   0 CCVPM_R2        
+ 184 Mwe 60A08C88            0          1       0 5616/6000   0 EPHONE MWI Refre
+ 185 Mwe 60B09704            0          9       0 5600/6000   0 FB/KS Log HouseK
+ 186 Lwe 60A0948C            0          2       0 5536/6000   0 EPHONE MWI BG Pr
+ 187 Mwe 60B2DB48            0          1       0 5596/6000   0 Skinny HW confer
+ 188 Mwe 614A1A7C            0          1       0 5600/6000   0 CCSWVOICE       
+ 189 Mwe 600FD0F0            0          1       0 2536/3000   0 Async write proc
+ 190 Mwe 61C79D30            0          1       059340/60000  0 http client proc
+ 191 Lwe 61975EA4            0          3       011364/12000  0 Collection proce
+ 192 Mwe 62B45C6C            0          1       0 8572/9000   0 QOS_MODULE_MAIN 
+ 193 Mwe 62C0100C            0          1       023528/24000  0 RPMS_PROC_MAIN  
+ 194 Mwe 63138A58            0          1       023508/24000  0 VoIP AAA        
+ 195 Mwe 6316C7BC            0          2       0 5412/6000   0 Dialog Manager  
+ 196 Lwe 6393CB74          700         45   15555 4556/6000   0 crypto engine pr
+ 197 Mwe 638333F4           20          4    500010624/12000  0 Crypto CA       
+ 198 Mwe 638347D4            0          1       011604/12000  0 Crypto PKI-CRL  
+ 199 Mwe 63955098            0          1       011608/12000  0 encrypt proc    
+ 200 Lwe 63953644         1936        175   11062 4208/6000   0 crypto sw pk pro
+ 201 Mwe 63AD94BC            0          1       0 5596/6000   0 Crypto INT      
+ 202 Mwe 63A4DD64            4          3    133310116/12000  0 Crypto IKE Dispa
+ 203 Mwe 63A4CBBC            8          3    266611268/12000  0 Crypto IKMP     
+ 204 Mwe 63BBEFC4            0          1       0 5776/6000   0 IPSEC manual key
+ 205 Mwe 63A3A75C           84        404     207 9900/12000  0 IPSEC key engine
+ 206 Mwe 63B8E990            0          1       0 5784/6000   0 CRYPTO QoS proce
+ 207 Mwe 63AA52F8            0          4       022204/24000  0 Crypto ACL      
+ 208 Mwe 63AC0DE4            0          1       0 5608/6000   0 Crypto PAS Proc 
+ 209 Mwe 63B54604            0          1       0 5732/6000   0 GDOI GM Process 
+ 210 Mwe 63B85A28            0          1       0 5728/6000   0 UNICAST REKEY   
+ 211 Mwe 63B8603C            0          1       0 5604/6000   0 UNICAST REKEY AC
+ 212 Hwe 60575874            4          1    4000 5608/6000   0 IMA Traps       
+ 213 Mwe 60D535F8            0          1       0 5400/6000   0 SYSMGT Events   
+ 214 Mwe 60D9D2C8            4          2    2000 5548/6000   0 Control-plane ho
+ 215 Mwe 611C5490            0          1       0 5604/6000   0 DATA Transfer Pr
+ 216 Mwe 611C2B18            0          1       0 5568/6000   0 DATA Collector  
+ 217 Mwe 600FD0F0            0          1       0 2536/3000   0 Async write proc
+ 218 Mwe 6159F028            0          2       0 5504/6000   0 AAA SEND STOP EV
+ 219 Msi 62BE68D0            0        804       0 5552/6000   0 RMON Recycle Pro
+ 220 Mwe 62BF1078            0          2       0 5544/6000   0 RMON Deferred Se
+ 221 Mwe 62F7283C            0          1       0 5640/6000   0 Syslog Traps    
+ 222 Mwe 634912F4            4          2    2000 8200/9000   0 EEM ED Resource 
+ 223 Mwe 634B3F50            0          2       0 8460/9000   0 EEM ED Routing  
+ 224 Mwe 634912F4            0          3       0 8440/9000   0 EEM ED Track    
+ 225 Mwe 63B412C8            0        251       0 5384/6000   0 Crypto cTCP proc
+ 226 Mwe 600AB424            0          1       0 5764/6000   0 IP SLAs Ethernet
+ 227 Mwe 6010765C            4          1    4000 5288/6000   0 RMON Packets    
+ 228 Lsi 60959A28           80       8002       9 5744/6000   0 trunk conditioni
+ 229 Hwe 6095B660            0          1       0 5572/6000   0 trunk conditioni
+ 230 Mwe 63464B00           24         99     242 4648/6000   0 EEM Server      
+ 231 Mwe 611FAD1C           20          2   10000 4892/6000   0 Call Home proces
+ 232 Mwe 61D29AF8           16         13    123011528/12000  0 Syslog          
+ 233 Mwe 6326A680            0          1       0 5588/6000   0 VPDN Test       
+ 234 Mwe 6344DFA0            0          2       0 5400/6000   0 EEM Policy Direc
+ 235 Mwe 634912F4            0          3       0 8436/9000   0 EEM ED CLI      
+ 236 Mwe 634912F4            0          3       0 8440/9000   0 EEM ED Counter  
+ 237 Mwe 634912F4            0          3       0 8460/9000   0 EM ED GOLD      
+ 238 Mwe 634912F4            0          3       0 8440/9000   0 EEM ED Interface
+ 239 Mwe 634912F4            0          3       0 8436/9000   0 EEM ED IOSWD    
+ 240 Mwe 634912F4            0          3       0 8328/9000   0 EEM ED Ipsla    
+ 241 Mwe 634912F4            0          3       0 8440/9000   0 EEM ED None     
+ 242 Mwe 634ABE6C            0          2       0 8396/9000   0 EEM ED Nf       
+ 243 Mwe 634912F4            0          3       0 8440/9000   0 EEM ED OIR      
+ 244 Mwe 634AF250            0          3       0 8444/9000   0 EEM ED RF       
+ 245 Mwe 634912F4            0          3       0 8428/9000   0 EEM ED SNMP     
+ 246 Mwe 634BD8C8            0          2       0 8472/9000   0 EEM ED SNMP Noti
+ 247 Mwe 634912F4            8        202      39 8428/9000   0 EEM ED Timer    
+ 248 Mwe 634912F4            0          3       0 8464/9000   0 EEM ED Test     
+ 249 Mwe 634912F4            4          3    1333 8460/9000   0 EEM ED Config   
+ 250 Mwe 634912F4            0          3       0 8464/9000   0 EEM ED Env      
+ 251 Mwe 634912F4            4          3    1333 8436/9000   0 EEM ED RPC      
+ 252 Mwe 600FD0F0            0          1       0 2532/3000   0 Async write proc
+ 253 Mwe 63CCC5D0            0          1       0 7768/8000   0 Key Proc        
+ 254 Mwe 61255EB4            0         68       059052/60000  0 CC-API_VCM      
+ 255 Mwe 60854A30          936      80133      1158740/60000  0 CCPROXY_CT      
+ 256 Mwe 611FAAC4            0        134       0 5676/6000   0 Call Home Timer 
+ 257 Mwe 600FD0F0            4          1    4000 2532/3000   0 Async write proc
+ 258 Mwe 6397DCCC            8          7    1142 4316/6000   0 SSH Event handle
+ 259 Mwe 616DF5A4          560       8028      69 7732/12000  0 DHCP Client     
+ 260 Msi 600F4E88            0         73       0 2756/3000   0 DFS flush period
+ 262 Mwe 60E319E0            0          1       0 5676/6000   0 xcpa-driver     
+ 263 ME  627A4184          160       7863      20 7244/9000   0 OSPF-100 Router 
+ 264 Mwe 600FD0F0            0          1       0 2532/3000   0 Async write proc
+ 265 Mwe 600FD0F0            4          1    4000 2536/3000   0 Async write proc
+ 266 Mwe 600FD0F0            0          1       0 2536/3000   0 Async write proc
+ 267 Mwe 600FD0F0            0          1       0 2536/3000   0 Async write proc
+ 268 Msi 600F4E88            0         65       0 2756/3000   0 DFS flush period
